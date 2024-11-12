@@ -9,4 +9,6 @@ CONFIG=$2
 
 module load nextflow
 
+cd /home/kreid20
+
 nextflow -C ${CONFIG} run ${WORKFLOW}
